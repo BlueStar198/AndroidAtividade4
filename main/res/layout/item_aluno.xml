@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/raTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="RA"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/nomeTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        app:layout_constraintTop_toBottomOf="@id/raTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/cepTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="CEP"
+        app:layout_constraintTop_toBottomOf="@id/nomeTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/logradouroTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Logradouro"
+        app:layout_constraintTop_toBottomOf="@id/cepTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/bairroTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Bairro"
+        app:layout_constraintTop_toBottomOf="@id/logradouroTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/cidadeTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Cidade"
+        app:layout_constraintTop_toBottomOf="@id/bairroTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/ufTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="UF"
+        app:layout_constraintTop_toBottomOf="@id/cidadeTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
